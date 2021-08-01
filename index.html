@@ -2,6 +2,31 @@
   <title>Graveloza | Coming soon</title>
   
   <style>
+    
+    .flex-container {
+    background-color: #202020;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    }
+
+.flex-item {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    order: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    }
+    
+    
+    
     /* Config */
 /* mixins */
 /* Styles */
@@ -166,6 +191,13 @@ h4:hover {
 </div>
 
 <div class="page-wrapper"> 
-  <h4>CSS Particles</h4>
+  <div class="flex-container">
+    <div class="flex-item">
+      logo
+    </div>
+    <div class="flex-item">
+      tekst
+    </div>
+  </div>
 </div>
 </body>
