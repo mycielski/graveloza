@@ -21,7 +21,7 @@
   h1 {
     font-family: 'gravel';
     color: whitesmoke;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 100;
     letter-spacing: 0.03em;
     text-align: center;
@@ -70,6 +70,21 @@
     align-content: center;
     align-items: center;
     z-index: 99999;
+  }
+
+  .topbar-buttons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    gap: 2vh;
+  }
+
+  .topbar-button {
+    color:white;
+    text-shadow: black 0.1em 0.1em 0.2em;
   }
 
   .button {
