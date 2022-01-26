@@ -1,2 +1,2 @@
-# `graveloza.cc` website source'
+# `graveloza.cc` website source
 
