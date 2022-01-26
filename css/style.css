@@ -51,11 +51,32 @@
     min-height: 100%;
     background-attachment: scroll;
     padding-bottom: 0%;
+    box-shadow: 0px 5px 10px 0px #00000011;
+  }
+
+  .bgimg-2 {
+    background-image: url(../images/bg2parallax.jpg);
+    min-height: 100%;
+    padding-bottom: 0%;
+  }
+
+  .bgimg-3 {
+    background-image: url(../images/bg3parallax.jpg);
+    min-height: 100%;
+    padding-bottom: 0%;
   }
 
   .ribbon1 {
     background-color: #a4543c;
     min-height: 25vh;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px -5px 10px 0px #00000044;
+  }
+
+  .ribbon2 {
+    background-color: #000000;
+    min-height: 15vh;
     align-content: center;
     text-align: center;
   }
@@ -88,6 +109,7 @@
     text-shadow: black 0.1em 0.1em 0.2em;
     font-size: 2vh;
     transition:all .2s ease-in-out;
+    text-decoration: none;
   }
   
   .topbar-button:hover {
