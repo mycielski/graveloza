@@ -109,6 +109,16 @@
     background-size: 100px;
   }
 
+  .ribbon3 {
+    background-color: #a4543c;
+    min-height: 2vh;
+    align-content: center;
+    text-align: center;
+    box-shadow: 0px -5px 10px 0px #00000044;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+
   .topbar {
     position: fixed;
     box-shadow: 10px 0px 5px black;
