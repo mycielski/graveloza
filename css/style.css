@@ -21,13 +21,14 @@
 
   h1 {
     font-family: 'gravel';
-    color: whitesmoke;
+    color: white;
     font-size: 4em;
     font-weight: 100;
     letter-spacing: 0.03em;
     text-align: center;
     margin-top: 0;
     margin-bottom: -1%;
+    text-shadow: 0.3vh 0.3vh 0vh #f5c66bff;
   }
 
   .titlebox {
@@ -151,14 +152,15 @@
   }
   
   .topbar-button:hover {
-    color: #f5c66b;
-    text-shadow: #D9D9D9  0.1em 0.1em 0.2em;
+    color: white;
+    text-shadow: 0.1vh 0.1vh 0vh #f5c66bff;
+    /*text-shadow: #D9D9D9  0.1em 0.1em 0.2em;*/
     transform: scale(1.05);
   }
 
   .button {
     background-color: rgb(68, 68, 68);
-    color: #D9D9D9;
+    color: white;
     border: 2px solid #555555;
     width: fit-content;
     padding: 1vh;
