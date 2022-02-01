@@ -89,7 +89,7 @@
   }
 
   .ribbon1 {
-    background-color: #D9D9D9;
+    background-color: #f5c66b;
     min-height: 50vh;
     align-content: center;
     text-align: center;
@@ -125,7 +125,7 @@
     width: 100%;
     height: 5vh;
     padding-top: 3vh;
-    background-color: #D9D9D9;
+    background-color: black;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -143,21 +143,22 @@
   }
 
   .topbar-button {
-    color:black;
-    text-shadow: #D9D9D9  0.1em 0.1em 0.2em;
+    color: #D9D9D9;
+    text-shadow: #D9D9D900  0.1em 0.1em 0.2em;
     font-size: 2vh;
     transition:all .2s ease-in-out;
     text-decoration: none;
   }
   
   .topbar-button:hover {
-    text-shadow: black  0.1em 0.1em 0.2em;
+    color: #f5c66b;
+    text-shadow: #D9D9D9  0.1em 0.1em 0.2em;
     transform: scale(1.05);
   }
 
   .button {
     background-color: rgb(68, 68, 68);
-    color: rgb(255, 255, 255);
+    color: #D9D9D9;
     border: 2px solid #555555;
     width: fit-content;
     padding: 1vh;
