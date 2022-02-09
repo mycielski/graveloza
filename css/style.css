@@ -209,7 +209,7 @@ h1 {
 }
 
 .social-icon {
-    max-width: 4vw;
+    max-width: 4ch;
     filter: invert(1);
 }
 
