@@ -22,7 +22,7 @@
   h1 {
     font-family: 'gravel';
     color: white;
-    font-size: 4em;
+    font-size: 5em;
     font-weight: 100;
     letter-spacing: 0.03em;
     text-align: center;
@@ -197,11 +197,11 @@
 
   @font-face {
     font-family: 'lito';
-    src: url("../fonts/lito.otf") format('opentype');
+    src: url("../fonts/lito.ttf") format('truetype');
   }
 
   @font-face {
     font-family: 'benito';
-    src: url("../fonts/benito.otf") format('opentype');
+    src: url("../fonts/benito.ttf") format('truetype');
   }
   
