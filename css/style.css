@@ -199,10 +199,12 @@
   @font-face {
     font-family: 'lito';
     src: url("../fonts/lito.ttf") format('truetype');
+    src: url("../fonts/lito.otf") format('opentype');
   }
 
   @font-face {
     font-family: 'benito';
     src: url("../fonts/benito.ttf") format('truetype');
+    src: url("../fonts/benito.otf") format('opentype');
   }
   
