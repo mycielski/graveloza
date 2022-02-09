@@ -213,6 +213,10 @@ h1 {
     filter: invert(1);
 }
 
+.social-icon:hover {
+    transform: scale(1.08);
+}
+
 @font-face {
     font-family: 'gravel';
     src: url("../fonts/gravel.ttf") format('truetype');
