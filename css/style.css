@@ -1,103 +1,108 @@
 .parallax {
     /* The image used */
     background-image: url("images/bg1.jpg");
-  
     /* Set a specific height */
-    min-height: 97%; 
-  
+    min-height: 97%;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-  }
+}
 
-  body, html {
+body,
+html {
     height: 100vh;
     margin: 0;
     font-family: 'Lato', sans-serif;
     scroll-behavior: smooth;
-  }
+}
 
-  h1 {
+h1 {
     font-family: 'gravel';
     color: white;
-    font-size: 5em;
+    font-size: 4em;
     font-weight: 100;
     letter-spacing: 0.03em;
     text-align: center;
     margin-top: 0;
     margin-bottom: -1%;
     text-shadow: 0.3vh 0.3vh 0vh #f5c66bff;
-  }
+}
 
-  .lito {
+.lito {
     font-family: 'lito';
-  }
+}
 
-  .benito {
+.benito {
     font-family: 'benito';
-  }
+}
 
-  .titlebox {
+.text-shadow-grey {
+    text-shadow: 0.3vh 0.3vh 0px #D9D9D9ff;
+}
+
+.titlebox {
     text-align: center;
     padding-top: 35vh;
     margin-top: 0;
-    color:whitesmoke;
+    color: whitesmoke;
     filter: drop-shadow(0 0 4rem rgb(0, 0, 0));
-  }
+}
 
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
     position: relative;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-  }
+}
 
-  .bgimg-1 {
+.bgimg-1 {
     background-image: url(../images/bg1.jpg);
     min-height: 100%;
     background-attachment: scroll;
     padding-bottom: 0%;
     box-shadow: 0px 5px 10px 0px #00000011;
-  }
+}
 
-  .bgimg-2 {
+.bgimg-2 {
     background-image: url(../images/bg2parallax.jpg);
     min-height: 100%;
-    padding-top:auto;
+    padding-top: auto;
     padding-bottom: auto;
-  }
+}
 
-  .bgimg-3 {
+.bgimg-3 {
     background-image: url(../images/bg3parallax.jpg);
     min-height: 100%;
-  }
+}
 
-  .column-flex {
+.column-flex {
     display: flex;
     align-items: center;
     flex-direction: column;
     align-content: center;
     justify-content: center;
     gap: 1vh;
-  }
+}
 
-  .section-content {
+.section-content {
+    font-size: large;
     text-align: justify;
     margin-left: auto;
     margin-right: auto;
     padding-left: 2vh;
     padding-right: 2vh;
     padding-top: 2vh;
-    color:white;
+    color: white;
     max-width: 250mm;
     text-shadow: black 0.1em 0.1em 0.2em;
-  }
+}
 
-  .ribbon1 {
+.ribbon1 {
     background-color: #f5c66b;
     min-height: 50vh;
     align-content: center;
@@ -105,20 +110,32 @@
     box-shadow: 0px -5px 10px 0px #00000044;
     padding-top: 4vh;
     padding-bottom: 4vh;
-  }
+}
 
-  .ribbon2 {
+.ribbon2 {
     background-color: #000000;
     min-height: 15vh;
     align-content: center;
     text-align: center;
-    background-image: url(../images/square.png);
+    /*background-image: url(../images/square.png);*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100px;
-  }
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
 
-  .ribbon3 {
+.ribbon2-flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /*gap: 0vw;*/
+}
+
+.ribbon3 {
     background-color: #D9D9D9;
     min-height: 2vh;
     align-content: center;
@@ -126,9 +143,9 @@
     box-shadow: 0px -5px 10px 0px #00000044;
     padding-top: 4vh;
     padding-bottom: 4vh;
-  }
+}
 
-  .topbar {
+.topbar {
     position: fixed;
     box-shadow: 10px 0px 5px black;
     width: 100%;
@@ -140,9 +157,9 @@
     align-items: center;
     z-index: 99999;
     font-family: 'lito';
-  }
+}
 
-  .topbar-buttons-container {
+.topbar-buttons-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -150,23 +167,23 @@
     align-items: baseline;
     align-content: center;
     gap: 2vh;
-  }
+}
 
-  .topbar-button {
+.topbar-button {
     color: black;
     /*text-shadow: #D9D9D900  0.1em 0.1em 0.2em;*/
     font-size: 2vh;
-    transition:all .2s ease-in-out;
+    transition: all .2s ease-in-out;
     text-decoration: none;
-  }
-  
-  .topbar-button:hover {
-    text-shadow: 0.1vh 0.1vh 0vh #f5c66bff;
-    text-shadow: #D9D9D9  0.1em 0.1em 0.2em;
-    transform: scale(1.05);
-  }
+}
 
-  .button {
+.topbar-button:hover {
+    text-shadow: 0.1vh 0.1vh 0vh #f5c66bff;
+    text-shadow: #D9D9D9 0.1em 0.1em 0.2em;
+    transform: scale(1.05);
+}
+
+.button {
     background-color: rgb(68, 68, 68);
     color: white;
     border: 2px solid #555555;
@@ -175,36 +192,40 @@
     margin-top: 3vh;
     margin-left: auto;
     margin-right: auto;
-    transition:all .2s ease-in-out;
-  }
-  
-  .button:hover {
+    transition: all .2s ease-in-out;
+}
+
+.button:hover {
     background-color: #2c2c2c;
     color: #f5c66b;
     box-shadow: #f5c66b 0px 0px 5px;
     transform: scale(1.08);
-  }
+}
 
-  .dark-overlay {
+.dark-overlay {
     background-color: rgba(0, 0, 0, 0.308);
     background-size: cover;
     background-blend-mode: multiply;
-  }
+}
 
-  @font-face {
+.social-icon {
+    max-width: 4vw;
+    filter: invert(1);
+}
+
+@font-face {
     font-family: 'gravel';
     src: url("../fonts/gravel.ttf") format('truetype');
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'lito';
     src: url("../fonts/lito.ttf") format('truetype');
     src: url("../fonts/lito.otf") format('opentype');
-  }
+}
 
-  @font-face {
+@font-face {
     font-family: 'benito';
     src: url("../fonts/benito.ttf") format('truetype');
     src: url("../fonts/benito.otf") format('opentype');
-  }
-  
+}
