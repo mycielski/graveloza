@@ -27,15 +27,50 @@
     <div class="ribbon1 column-flex" id="fest">
         <h1 class="text-shadow-grey" style="color: black; font-size: 3em;">Festiwal</h1>
         <h1 class="text-shadow-grey" style="color: black;">The Great Fest</h1>
-        <div class="section-content" style="padding-top: 3vh; padding-bottom: 3vh;">
+        <div class="section-content" style="padding-top: 1vh; padding-bottom: 1vh;">
             <p>
-                Impreza skupiająca entuzjastów rowerów, turystyki aktywnej i gravelowego stylu życia. Spotykamy się w Ziemiarach, gminie Bolimów – na terenie Bolimowskiego Parku Narodowego.
+                Impreza skupiająca entuzjastów rowerów, turystyki aktywnej i gravelowego stylu życia. Spotykamy się w
+                Ziemiarach, gminie Bolimów – na terenie Bolimowskiego Parku Narodowego.
             </p>
-            Trzy dni wspólnej zabawy i integracji. Wyścig gravelowy, ustawki i coffee ride. Po zejściu z roweru smaczne i zdrowe jedzenie, aromatyczna kawa, zimne kraftowe piwo a na dokładkę - foodtracki.
+            Trzy dni wspólnej zabawy i integracji. Wyścig gravelowy, ustawki i coffee ride. Po zejściu z roweru smaczne
+            i zdrowe jedzenie, aromatyczna kawa, zimne kraftowe piwo a na dokładkę - foodtracki.
             <p>
                 W programie również kino plenerowe, kilka stref tematycznych i muzyka na żywo!
             </p>
         </div>
+        <h1 class="text-shadow-grey" style="color: black; font-size: 3em;" id="demo"></h1>
+
+        <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jun 12, 2022 12:00:00").getTime();
+        
+        // Update the count down every 1 second
+        var x = setInterval(function() {
+        
+          // Get today's date and time
+          var now = new Date().getTime();
+            
+          // Find the distance between now and the count down date
+          var distance = countDownDate - now;
+            
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+            
+          // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+            
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+
         <a href="https://myciel.ski" style="text-decoration: none;">
             <div class="button benito">Zapisy</div>
         </a>
@@ -44,7 +79,9 @@
     <div class="bgimg-2 dark-overlay column-flex" id="team">
         <h1>Zespół</h1>
         <div class="section-content">
-            Gravelozę tworzą osoby z pasją i entuzjaści czerpania przyjemności z jazdy. Każdy z nas jest inny i ma swoje indywidualne, mocne strony. Uzupełniamy się wzajemnie tworząc ekipę dla, której nie ma rzeczy niemożliwych a wszystkie projekty dopinamy na ostatni
+            Gravelozę tworzą osoby z pasją i entuzjaści czerpania przyjemności z jazdy. Każdy z nas jest inny i ma swoje
+            indywidualne, mocne strony. Uzupełniamy się wzajemnie tworząc ekipę dla, której nie ma rzeczy niemożliwych a
+            wszystkie projekty dopinamy na ostatni
             guzik!
         </div>
     </div>
@@ -52,7 +89,9 @@
     <div class="bgimg-3 dark-overlay column-flex" id="past">
         <h1>O nas</h1>
         <div class="section-content">
-            Koleżeńskie Towarzystwo Kolarskie Graveloza – Stowarzyszenie mające swoje korzenie w ustawkach rowerowych organizowanych od końca 2020. Ogólnopolska organizacja z siedzibą w Warszawie działająca na rzecz kolarstwa szutrowego, propagująca zdrowy tryb życia
+            Koleżeńskie Towarzystwo Kolarskie Graveloza – Stowarzyszenie mające swoje korzenie w ustawkach rowerowych
+            organizowanych od końca 2020. Ogólnopolska organizacja z siedzibą w Warszawie działająca na rzecz kolarstwa
+            szutrowego, propagująca zdrowy tryb życia
             a także działająca charytatywnie.
         </div>
     </div>
@@ -69,7 +108,7 @@
             </div>
             <p>Koleżeńskie Towarzystwo Kolarskie Graveloza<br> Ul. Nowy Świat 33/13<br>00-209 Warszawa</p>
             <p>Kontakt:
-                <a href="mailto:info@graveloza.cc " style="color: white; ">info@graveloza.cc</a>
+                <a href="mailto:info@graveloza.cc " style="color: black; ">info@graveloza.cc</a>
             </p>
             <p>Numer rachunku<br>Mbank: 15 1140 2004 0000 3102 8199 9996
             </p>
