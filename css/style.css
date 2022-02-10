@@ -47,6 +47,9 @@ h1 {
     padding-top: 35vh;
     margin-top: 0;
     color: whitesmoke;
+}
+
+.difused-shadow {
     filter: drop-shadow(0 0 4rem rgb(0, 0, 0));
 }
 
