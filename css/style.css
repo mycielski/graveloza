@@ -57,10 +57,17 @@ h1 {
 .bgimg-2,
 .bgimg-3 {
     position: relative;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@supports not (-webkit-touch-callout: none) {
+    .bgimg-1,
+    .bgimg-2,
+    .bgimg-3 {
+        background-attachment: fixed;
+    }
 }
 
 .bgimg-1 {
